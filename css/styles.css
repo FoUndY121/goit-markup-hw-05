@@ -660,17 +660,27 @@ display: flex;
 /* =============== Review form Styles =============== */
 .modal-slogan {
 
-    max-width: 298px;
-    margin-bottom: 40px;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 1.17;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-    color: #111111;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+    width: 360px;
+    height: 24px;
+    margin: 16px auto;
+    /*max-width: 298px;*/
+    /*margin-bottom: 40px;*/
+    /*font-weight: 600;*/
+    /*font-size: 24px;*/
+    /*line-height: 1.17;*/
+    /*letter-spacing: -0.03em;*/
+    /*text-transform: uppercase;*/
+    /*color: #111111;*/
 }
 
 .review-form-field-wrapper {
+
     margin-bottom: 18px;
 }
 
@@ -679,7 +689,7 @@ display: flex;
     font-size: 14px;
     letter-spacing: -0.02em;
     color: #8E8F99;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
 }
 
 .review-form-input-wrapper {
@@ -688,7 +698,7 @@ display: flex;
 
 .review-form-field {
     width: 100%;
-    height: 68px;
+    height: 58px;
     padding-left: 62px;
     font-size: 18px;
     letter-spacing: -0.02em;
@@ -697,6 +707,7 @@ display: flex;
     border-radius: 13px;
     background-color: transparent;
     transition: border-color 250ms linear;
+
 }
 
 .review-form-field:focus {
@@ -709,13 +720,13 @@ display: flex;
     top: 50%;
     left: 24px;
     transform: translateY(-50%);
-    fill: none;
-    stroke: #2533c1;
+    fill: #2E2F42;
+    stroke: #2E2F42;
     transition: stroke 250ms linear;
 }
 
 .review-form-field:focus + .review-form-field-icon {
-    stroke: #fd9222;
+    stroke: #2E2F42;
 }
 
 /* .review-form-input-wrapper:focus-within .review-form-field-icon {
