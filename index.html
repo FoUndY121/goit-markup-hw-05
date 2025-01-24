@@ -469,17 +469,21 @@
         <div class="footer-form-email">
             <p class="subscribe">Subscribe</p>
             <form class="footer-form">
-                <label class="footer-form-label" for="user-email">E-mail
-                <input name="email" class="footer-input-email" type="email" placeholder="E-mail" />
-                </label>
-                <button type="submit" class="footer-button">Subscribe
+                <!-- Связываем <label> с <input> через атрибут for и id -->
+                <label class="footer-form-label" for="user-email">E-mail</label>
+                <input
+                        name="email"
+                        class="footer-input-email"
+                        id="user-email"
+                        type="email"
+                        placeholder="E-mail"
+                />
+                <button type="submit" class="footer-button">
+                    Subscribe
                     <svg class="icon-footer" width="24" height="24">
-                    <use href="./images/icons.svg#icon-Frame">
-
-                    </use>
-                </svg>
+                        <use href="./images/icons.svg#icon-Frame"></use>
+                    </svg>
                 </button>
-
             </form>
         </div>
     </div>
@@ -516,7 +520,7 @@
                 <label class="review-form-field-label" for="Phone">
                     Phone
                 </label>
-                <div class="review-form-input-wrapper phone">
+                <div class="review-form-input-wrapper ">
                     <input
                             class="review-form-field"
                             id="Phone"
@@ -532,13 +536,13 @@
                 </div>
             </div>
             <div class="review-form-field-wrapper phone">
-                <label class="review-form-field-label" for="user-email">
+                <label class="review-form-field-label" for="email">
                     Email
                 </label>
                 <div class="review-form-input-wrapper">
                     <input
                             class="review-form-field"
-                            id="user-email"
+                            id="email"
                             type="email"
                             name="user-email"
                             required
