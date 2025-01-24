@@ -423,8 +423,8 @@ background-position: center;
 }
 
 .portfolio-item:hover {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08),
+    0 1px 1px rgba(46, 47, 66, 0.16), 0 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-item:hover .portfolio-hiden-text {
@@ -647,7 +647,7 @@ margin-left: 16px;
     border-radius: 4px;
     background-color: #fcfcfc;
     overflow-y: auto;
-    box-shadow:  0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2); ;
+    box-shadow:  0 1px 1px rgba(0, 0, 0, 0.14), 0 1px 3px rgba(0, 0, 0, 0.12), 0 2px 1px rgba(0, 0, 0, 0.2); ;
 transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); ;
 }
 
@@ -677,6 +677,10 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); ;
 .modal-close-btn:focus {
    border: none;
     background-color: #404bbf;
+}
+.modal .modal-close-btn:hover,
+.modal .modal-close-btn:focus {
+    fill: #ffffff;
 }
 .modal-close-icon{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -710,7 +714,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); ;
 }
 
 .review-form-field-wrapper {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .review-form-field-label {
@@ -793,7 +797,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); ;
 }
 
 .review-form-checkbox-wrapper {
-    margin-bottom: 40px;
+    margin-bottom: 24px;
 }
 
 .review-form-policy-label {
@@ -827,9 +831,9 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); ;
 .review-form-policy-checkbox:checked
 + .review-form-policy-label
 .review-form-custom-checkbox {
-    background-color: #fd9222;
-    border-color: #fd9222;
-    fill: #ffffff;
+    background-color: #404bbf;
+    border: none;
+    fill: #f4f4fd;
 }
 
 .review-form-policy-checkbox:focus
